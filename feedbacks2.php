@@ -1,6 +1,6 @@
 <?php  $link = mysqli_connect("localhost", "root", "lsded24489" , "collector") ;
 
-
+// fefefeefefefefefefefe
 echo '<table border="1">';
 echo '<thead>';
 echo '<tr>';
