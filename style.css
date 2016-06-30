@@ -158,8 +158,11 @@ ul.menu_block li a:hover{
 .main_block {
     margin-left: 5%;
     margin-right: 5%;
-    height: 500px;
+    height: auto;
+    padding-bottom: 30px;
     border: 0;
+    padding-top: 10px;
+    padding-left: 20px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
@@ -228,4 +231,25 @@ hr {
     margin-top: 30px;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: small;
+}
+
+.mini_body {
+    position: relative;
+    width: 40%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 10px;
+    border: 2px dotted black;
+    border-radius: 15px;
+}
+.pic{
+    position: absolute;
+    margin-left: 110%;
+    border: 1px solid black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
 }
