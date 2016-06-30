@@ -77,11 +77,11 @@ ul.menu_block li a:hover{
     transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-.slide1 { background-image: url(img/slider_pic.png); }
-.slide2 { background-image: url(img/slider_pic_2.png); }
-.slide3 { background-image: url(img/slider_pic.png); }
-.slide4 { background-image: url(img/slider_pic.png); }
-.slide5 { background-image: url(img/slider_pic.png); }
+.slide1 { background-image: url(img/slide/Untitled-13.png); }
+.slide2 { background-image: url(img/slide/Untitled-8.png); }
+.slide3 { background-image: url(img/slide/Untitled-7.png); }
+.slide4 { background-image: url(img/slide/Untitled-6.png); }
+.slide5 { background-image: url(img/slide/Untitled-10.png); }
 
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
@@ -145,4 +145,87 @@ ul.menu_block li a:hover{
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
+}
+
+.main {
+    background: linear-gradient(to bottom, #dcdcdc, white);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+.main_block {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 10px black;
+    -o-box-shadow: 0 0 10px black;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 110px;
+    background-color: #949494;
+    padding-top: 10px;
+}
+
+.menu_foot {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 85%;
+}
+
+.menu_foot li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_foot li a{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: xx-small;
+    text-decoration: none;
+    font-weight: bold;
+    color: #363636;
+    padding: 0;
+}
+.menu_foot li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.contact {
+    text-align: center;
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: smaller;
+    color: black;
+}
+
+.storage {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: small;
 }
