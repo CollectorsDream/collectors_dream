@@ -8,4 +8,3 @@ mysqli_close($link);
 
 header('location: feedback1.html');
 exit();
-//efeefefefe
