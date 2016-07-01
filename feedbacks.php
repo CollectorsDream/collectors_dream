@@ -6,5 +6,5 @@ $send = mysqli_query($link, "INSERT INTO `feedback` (`name`, `comment`) VALUES (
 mysqli_close($send);
 mysqli_close($link);
 
-header('location: feedback1.html');
+header('location: feedbacks_main.php');
 exit();
