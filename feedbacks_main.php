@@ -13,7 +13,7 @@
                 <img src="img/logo.png">
             </div>
             <ul class="menu_block">
-                <li><a href="#">Главная </a></li>
+                <li><a href="index.html">Главная </a></li>
                 <li><a href="">Услуги </a></li>
                 <li><a href="">О компании </a></li>
                 <li><a href="">Отзывы </a></li>
@@ -83,7 +83,7 @@ mysqli_close($link); ?>
 <div class="footer">
     <hr>
     <ul class="menu_foot">
-        <li><a href="#">Главная </a></li>
+        <li><a href="index.html">Главная </a></li>
         <li><a href="">Услуги </a></li>
         <li><a href="">О компании </a></li>
         <li><a href="">Отзывы </a></li>
